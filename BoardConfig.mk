@@ -66,5 +66,8 @@ TARGET_BOARD_PLATFORM := msm8937
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+# RIL
+TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
+
 # Inherit from the proprietary version
 -include vendor/samsung/j4primelte/BoardConfigVendor.mk
