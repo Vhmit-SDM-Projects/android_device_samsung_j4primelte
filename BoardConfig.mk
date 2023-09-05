@@ -41,6 +41,9 @@ TARGET_ENABLE_MEDIADRM_64 := true
 # Filesystem
 TARGET_USES_MKE2FS := true
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
 # Kernel
 TARGET_KERNEL_CONFIG := j4primelte_defconfig
 TARGET_KERNEL_HEADER_ARCH := arm64
