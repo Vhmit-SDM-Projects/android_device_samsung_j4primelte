@@ -505,5 +505,19 @@ vendor/lib/libmmcamera_isp_ihist_stats44.so
 vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so
 vendor/lib/libmmcamera_pdaf.so
 
+# SCVE
+vendor/lib/libscveBlobDescriptor.so
+vendor/lib/libscveBlobDescriptor_stub.so
+vendor/lib/libscveCommon.so
+vendor/lib/libscveCommon_stub.so
+vendor/lib/libscveObjectSegmentation.so
+vendor/lib/libscveObjectSegmentation_stub.so
+vendor/lib/libscveObjectTracker.so
+vendor/lib/libscveObjectTracker_stub.so
+vendor/lib/libscvePanorama.so
+vendor/lib/libscvePanorama_lite.so
+
 # Sensors
+vendor/lib/libsensorlistener.so
+vendor/lib/libsensorndkbridge.so
 vendor/lib/hw/sensors.msm8937.so
